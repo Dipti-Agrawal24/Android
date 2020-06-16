@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="202dp"
+        android:layout_height="54dp"
+        android:text="Upload"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="574dp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="168dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
