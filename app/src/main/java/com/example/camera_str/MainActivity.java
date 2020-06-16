@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode,resultCode,data);
         if(requestCode == CAMERA_REQUEST_CODE && resultCode ==RESULT_OK)
         {
-            prog.setMessage("Upolading..");
+            prog.setMessage("Upolading..image");
             prog.show();
 
             //get the camera image
